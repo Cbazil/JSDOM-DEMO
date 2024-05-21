@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JSDOM exercises</title>
+  <script src="./main.js" type="module" defer></script>
+</head>
+<body>
+  <!-- getElementById -->
+  <div id="e1-parent">
+    <div id="e1-child1">Child1</div>
+    <div id="e1-child2">Child2</div>
+  </div>
+  
+  <!-- getElementByClassName -->
+  <div id="e2-parent">
+    <div class="e2-children">Child1</div>
+    <div class="e2-children">Child2</div>
+  </div>
+
+  <!-- querySelector -->
+  <div>
+    <div id="e3-parent">
+      <div id="e3-child1">Child1</div>
+      <div id="e3-child2">Child2</div>
+      <button id="e3-child3">Child3</button>
+      <button id="e3-child3">Child4</button>
+    </div>
+  </div>
+
+  <!-- querySelectorAll -->
+  <div>
+    <div id="e4-parent">
+      <div id="e4-child1">Child1</div>
+      <div id="e4-child2">Child2</div>
+      <button class="e4-child3">Child3</button>
+      <button class="e4-child3">Child4</button>
+    </div>
+  </div>
+
+  <!-- querySelector data-attribute --> 
+  <div>
+    <div id="e5-parent">
+      <div data-e5-child1>
+        <div>Child1</div>
+      </div>
+      <div data-e5-child1>Child2</div>
+      <button data-e5-btn1>Child3</button>
+      <button data-e5-btn1>Child4</button>
+    </div>
+  </div>
+</body>
+</html>
