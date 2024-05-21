@@ -18,7 +18,6 @@ console.log('example4', example4)
 const example5 = document.querySelector('[data-e5-child1]')
 console.log('example5', example5.innerHTML)
 
-
 // legacy function vs arrow function
 
 // legacy
@@ -42,7 +41,6 @@ person1.isStudent()
 person2.isStudent()
 
 // arrow
-
 // const handleCheck = (name, age) => {
 //   console.log(name, age)
 // }
